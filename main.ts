@@ -6,7 +6,7 @@ basic.forever(function () {
     goal = pins.digitalReadPin(DigitalPin.P1)
     if (goal == 1) {
         score = score + 1
-        music.playTone(494, music.beat(BeatFraction.Whole))
+        music.playMelody("G B A G - - - - ", 155)
         pins.digitalWritePin(DigitalPin.P2, 1)
         basic.showNumber(score)
         basic.pause(1000)
