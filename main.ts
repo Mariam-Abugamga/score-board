@@ -1,3 +1,6 @@
+// created by: Mariam Abugamga
+// Created On: Nov 5, 2020
+// This program is a Micro:Bit Electro Football program
 let goal = 0
 let score = 0
 basic.showNumber(score)
